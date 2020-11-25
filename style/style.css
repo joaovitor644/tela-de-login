@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	font-family:sans-serif;
 }
 div#container-box {
 	width:300px;
@@ -20,4 +21,19 @@ div#box-login {
  div#box-login span {
 	display:block;
 	margin-top:30px;
+	position:relative;
+	bottom:10px;
+}
+input#btm {
+	margin-top:50px;
+	width:180px;
+	border-radius:15px;
+	border:none;
+	padding:5px;
+}
+input {
+	border-radius:15px;
+	width:180px;
+	border:none;
+	padding:5px;
 }
